@@ -1,0 +1,25 @@
+.bar {
+  fill: #03a9f4;
+}
+
+.axis {
+	color: #555555;
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  opacity: 0.1;
+  shape-rendering: crispEdges;
+}
+
+
+.y.axis path,
+.x.axis path,
+.x.axis line {
+	stroke:none;
+}
